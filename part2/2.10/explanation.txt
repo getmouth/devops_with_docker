@@ -1,0 +1,2 @@
+I had to either remove the REACT_APP_BACKEND_URL environment variable
+or set it to just 'api' in the example-frontend Dockerfile.

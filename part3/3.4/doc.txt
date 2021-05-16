@@ -1,0 +1,25 @@
+Before optimization:
+_______________________
+
+Frontend:
+    REPOSITORY         TAG       IMAGE ID       CREATED              SIZE
+    example-frontend   latest    58a6931b404f   About a minute ago   494MB
+
+Backend:
+    REPOSITORY         TAG           IMAGE ID       CREATED              SIZE
+    example-backend    latest        249d52ab62a9   About a minute ago   879MB
+
+
+After optimization:
+______________________
+
+Frontend:
+    REPOSITORY         TAG       IMAGE ID       CREATED          SIZE
+    example-frontend   latest    732d5511a7d3   7 seconds ago    454MB
+
+Backend:
+    REPOSITORY         TAG           IMAGE ID       CREATED             SIZE
+    example-backend    latest        db10faa4b445   40 seconds ago      732MB
+
+
+I had to rebuild the backend and frontend containers with ubuntu:18.04 as opposed to previous exercises
