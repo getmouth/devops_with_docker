@@ -1,0 +1,11 @@
+Before:
+
+    REPOSITORY         TAG                 IMAGE ID       CREATED         SIZE
+    custom-self        3.7                 d708bf1a50a5   2 minutes ago   363MB
+
+After:
+    REPOSITORY         TAG                 IMAGE ID       CREATED          SIZE
+    custom-self        3.7                 12f64bd9bc4a   22 seconds ago   23.6MB
+
+
+Note: I used one of my existing ReactJs applications to fulfill this task.
